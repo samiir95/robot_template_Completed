@@ -1,0 +1,14 @@
+{
+  "validusers":[
+      {
+          "id": 1,
+          "username": "standard_user",
+          "password": "secret_sauce"
+      }],
+  "invalidusers":[
+      {
+          "id": 1,
+          "userName": "Test",
+          "password": "Invalid"
+      }]
+}

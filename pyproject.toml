@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "robot-template"
+version = "0.1.0"
+description = ""
+authors = ["m_sameer <m.sameer@takamol.com.sa>"]
+readme = "README.md"
+packages = [{include = "robot_template"}]
+
+[tool.poetry.dependencies]
+python = "~3.8"
+selenium = "^4.7.2"
+robotframework = "^6.0.2"
+robotframework-seleniumlibrary = "^6.0.0"
+robotframework-pabot = "^2.11.0"
+robotframework-jsonlibrary = "^0.5"
+allure-robotframework = "^2.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
