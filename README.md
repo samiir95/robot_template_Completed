@@ -146,7 +146,7 @@ Which contains Keywords for each and every element will be used in each Page for
 This command will export by default three types of Reports(log.html, report.html, output.xml). Under Results/Reports directory, which will be used later for Test Execution on Test Tools like JIRA")
 **To generate allure reports use the following command:**
 
-    poetry run robot --listener allure_robotframework ./Tests/SigninBuyProduct_TestSuite.robot
+    poetry run robot --listener allure_robotframework ./Tests/ui/SigninBuyProduct_TestSuite.robot
 
 _Note: Please don't remove the "poetry.lock" & "pyproject.toml"_
 
