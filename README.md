@@ -137,11 +137,11 @@ Which contains Keywords for each and every element will be used in each Page for
 
 **Execution use the following Command:**
 
-    poetry run robot -d ./Results/Reports/  ./Tests/SigninBuyProduct_TestSuite.robot
+    poetry run robot -d ./Results/Reports/  ./Tests/ui/SigninBuyProduct_TestSuite.robot
 
 **You can add -T to the command to generate reports with date_time_staps**
 
-    poetry run robot -T -d ./Results/Reports/  ./Tests/SigninBuyProduct_TestSuite.robot
+    poetry run robot -T -d ./Results/Reports/  ./Tests/ui/SigninBuyProduct_TestSuite.robot
 
 This command will export by default three types of Reports(log.html, report.html, output.xml). Under Results/Reports directory, which will be used later for Test Execution on Test Tools like JIRA")
 **To generate allure reports use the following command:**
