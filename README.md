@@ -67,7 +67,21 @@ _In order to execute the test cases, you have two options:_
 
     poetry add package_name
 
+# nvm (node version manager)
+> Follow this site to install nvm and the recommended (lts) version of node using it on windows.
+
+    https://www.freecodecamp.org/news/nvm-for-windows-how-to-download-and-install-node-version-manager-in-windows-10/#:~:text=To%20install%20a%20specific%20version,0%20
+    
+> Follow this site to install nvm and the recommended (lts) version of node using it on linux/MacOS.
+
+    https://gist.github.com/d2s/372b5943bce17b964a79
+    
+> Follow this site to install robotframework-browser library
+    
+    https://github.com/MarketSquare/robotframework-browser#robotframework-browser
 ---
+
+
 
 # Plugins
 
